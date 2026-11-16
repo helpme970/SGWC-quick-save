@@ -4,12 +4,16 @@ Quick save mod for Sniper: Ghost Warrior Contracts 1 & 2
 ## Installation
 - Download the file
 - Put it into `<path-to-game>/gamesdk/` (e.g. `steamapps/common/Sniper Ghost Warrior Contracts 2/gamesdk`)
+- if you save, a triangle will appear at the top right
 
 ## Controls
 | Key   | Usage |
 | ----- | ----- |
 | F5    | Save  |
 | F8    | Load  |
+
+## Troubleshooting
+Ff the game does not save try to put `con_restricted=0` into `<path-to-game>/gamesdk/game.cfg`
 
 ## Bugs
 - does not load when clicking continue from the main menu, however after clicking on continue and then pressing the load button
